@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
     
-bool isprime(int n){
+bool isprime(int x){
     
-    for(int i=2;i<n;i++){
+    for(int i=2;i<x;i++){
         
-        if(n%i ==  0){
+        if(x%i ==  0){
             return 0;
         }
     }
